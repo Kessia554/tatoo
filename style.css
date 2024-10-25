@@ -262,9 +262,24 @@ nav {
     padding: 15px; /* Reduzido para um pouco menos de espaço interno */
 }
 .estudio-img{
+
     width: 90%; /* Ajuste a largura da imagem para preencher o contêiner */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 10px; /* Bordas arredondadas, se desejado */
     width: 500px; /* Ajuste o tamanho conforme necessário */
 
+}
+
+/* Estilos para dispositivos com largura máxima de 768px (como a maioria dos celulares) */
+@media (max-width: 768px) {
+  /* Ajuste de tamanhos, fontes, margens, etc. para telas menores */
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  /* Outros ajustes específicos para dispositivos móveis */
 }
