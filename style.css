@@ -269,17 +269,30 @@ nav {
     width: 500px; /* Ajuste o tamanho conforme necessário */
 
 }
-
-/* Estilos para dispositivos com largura máxima de 768px (como a maioria dos celulares) */
+/* Media query para telas pequenas (celulares) */
 @media (max-width: 768px) {
-  /* Ajuste de tamanhos, fontes, margens, etc. para telas menores */
   body {
     font-size: 14px;
   }
 
   .container {
+    width: 100%;
     padding: 10px;
   }
 
-  /* Outros ajustes específicos para dispositivos móveis */
+  .header {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+/* Media query para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 90%;
+  }
 }
